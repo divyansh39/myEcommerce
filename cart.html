@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--Styles CSS-->
+    <link rel="stylesheet" href="Assets/CSS/styles.css">
+   
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- fontawesome cdn For Icons -->
+    <script src="https://kit.fontawesome.com/92311495c0.js" crossorigin="anonymous"></script>
+
+    <title>E-commerce</title>
+  </head>
+  <body id="top">
+    <section class="header_menu" id="header_menu">
+        <div class="container-fluid px-0 shadow">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="index.html"><img src="Assets/images/girly2.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavBar"aria-controls="mainNavBar" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="mainNavBar">
+                  <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="product.html">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="category.html">Category</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact us</a>
+                    </li>
+                    <!--
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                    -->
+                  </ul>
+                  <div class="search">
+                    <a href="search.html" class="btn btn-dark">
+                    Search
+                    </a>
+                    </div>
+                    <div class="cart">
+                    <a href="cart.html">
+                        <i class="fas fa-shopping-cart fa-2x fa-color"></i>
+                    <span class="badge badge-pill badge-primary">24</span>
+                    </a>
+                    </div> 
+                </div>
+              </nav>
+        </div>
+    </section>
+    <!-- ==============cart starts here============== -->
+    <section class="cart pt-3 pb-5" id="cart">
+      <div class="container ">
+      <div class="row bg_cart_1 rounded">
+      <!--Grid column-->
+      <div class="col-md-8 border-right">
+      <!-- Card -->
+      <div class="mb-3">
+        <div class="pt-4">
+          <h5 class="mb-3">Cart (<span>2</span> items)</h5>
+          <div class="row mb-4">
+          <div class="col-md-5 col-lg-3 col-xl-3">
+            <div class="rounded mb-3 mb-md-0">
+            <img class="img-fluid w-100 rounded"
+            src="Assets/images/headbands.jpg"
+            alt="Sample">
+            </div>
+          </div>
+          <div class="col-md-7 col-lg-9 col-xl-9">
+            <div>
+              <div class="d-flex justify-content-between">
+                <div>
+                  <h5>Headband</h5>
+                  <p class="mb-3 text-muted text-uppercase small">Headband</p>
+                  <p class="mb-2 text-muted text-uppercase small">Color:
+                  multicolor</p>
+                  <p class="mb-3 text-muted text-uppercase small">seller:xyz store</p>
+                </div>
+                <div>
+                  <div class="mb-0 w-100">
+                    <button
+                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                    class="btn btn-sm btn-outline-primary">
+                    <i class="fas fa-minus"></i>
+                    </button>
+                    <input class="quantity text-center" min="0" max="10"
+                    name="quantity"
+                    value="1" type="number">
+                    <button
+                      onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                      class="btn btn-sm btn-outline-primary">
+                      <i class="fas fa-plus"></i>
+                    </button>
+                  </div>
+                    <small class="form-text text-muted text-center">
+                    (Note, 1 piece)
+                    </small>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+              <div>
+                <a href="javascript:;" type="button"
+                class="small text-uppercase mr-3"><i
+                class="fas fa-trash-alt mr-1"></i> Remove item </a>
+              </div>
+              <p class="mb-0"><span><strong
+              id="summary">₹17.99</strong></span></p
+              class="mb-0">
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="mb-4">
+          <div class="row mb-4">
+            <div class="col-md-5 col-lg-3 col-xl-3">
+              <div class="rounded mb-3 mb-md-0">
+                <img class="img-fluid w-100 rounded"
+                    src="Assets/images/lipstick.jpg"
+                    alt="Sample">
+              </div>
+            </div>
+            <div class="col-md-7 col-lg-9 col-xl-9">
+              <div>
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <h5>Lipstick</h5>
+                    <p class="mb-3 text-muted text-uppercase small">Lipstick</p>
+                    <p class="mb-2 text-muted text-uppercase small">Color:
+                    nude</p>
+                    <p class="mb-3 text-muted text-uppercase small">Seller:xyz gallery</p>
+                  </div>
+                  <div>
+                  <div class="mb-0 w-100">
+                    <button
+                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                    class="btn btn-sm btn-outline-primary">
+                    <i class="fas fa-minus"></i>
+                    </button>
+                    <input class="quantity text-center" min="0" max="10"
+                    name="quantity"
+                    value="1" type="number">
+                    <button
+                    onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                    class="btn btn-sm btn-outline-primary">
+                    <i class="fas fa-plus"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <a href="javascript:;" type="button"
+                  class="card-link-secondary small text-uppercase mr-3">
+                  <i class="fas fa-trash-alt mr-1"></i> Remove item
+                  </a>
+                </div>
+                  <p class="mb-0"><span><strong>₹35.99</strong></span></p
+                  class="mb-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Grid column-->
+  <!--Grid column-->
+  <div class="col-md-4 rounded">
+    <!-- Card -->
+    <div class="mb-3">
+      <div class="pt-4">
+        <h5 class="mb-3">Order summary</h5>
+          <ul class="list-group list-group-flush">
+          <li
+          class="list-group-item d-flex justify-content-between
+          align-items-center border-0 px-0 pb-2">
+          <span>Headband</span>
+          <span>*1</span>
+          <span>₹200</span>
+          </li>
+          <li
+          class="list-group-item d-flex justify-content-between
+          align-items-center border-0 px-0 pb-2">
+          <span>Lipstick</span>
+          <span>*1</span>
+          <span>₹250</span>
+          </li>
+          <li
+            class="list-group-item d-flex justify-content-between
+            align-items-center border-top px-0 mb-3">
+            <div>
+              <strong>Total amount</strong>
+              <strong>
+              <p class="mb-0">(including VAT)</p>
+              </strong>
+           </div>
+            <span><strong>₹450</strong></span>
+          </li>
+        </ul>
+        <a href="checkout.html" class="btn btn-primary btn-block">Go to
+        Checkout</a>
+      </div>
+    </div>
+<!-- Card -->
+</div>
+<!--Grid column-->
+</div>
+</div>
+</section>
+<!-- ==============cart ends here============== -->
+<!----------footer starts here--------->
+ <section class="footer_section pt-5 pb-2 text-light" id="footer_section">
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="footcol col-md-3 col-6 pl-5 pl-small-15">
+            <div class="footer_title">
+            <a href="index.html"><img src="Assets/images/girly2.png" width="150px" class="img img-fluid" alt="logo"></a>
+            </div>
+            <div class="ex text-light">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, totam est
+            </div>
+          </div>
+          <div class="footcol1 col-md-3 col-6">
+            <div class="footer_title pt-3 mb-3">
+            <h3>Quick Links</h3>
+            </div>
+            <div class="footer_links">
+            <ul>
+              <li><a href="about.html text-light">About</a></li>
+              <li><a href="javascript:;">Offers & Discounts</a></li>
+              <li><a href="javascript:;">Get Coupon</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            </div>
+          </div>
+          <div class="footcol1 col-md-3 col-6">
+            <div class="footer_title pt-3 mb-3">
+            <h3>New Products</h3>
+            </div>
+            <div class="footer_links">
+            <ul>
+              <li><a href="javascript:;">Woman Cloth</a></li>
+              <li><a href="javascript:;">Fashion Accessories</a></li>
+              <li><a href="javascript:;">Man Accessories</a></li>
+              <li><a href="javascript:;">Rubber made Toys</a></li>
+            </ul>
+            </div>
+          </div>
+          <div class="footcol1 col-md-3 col-6">
+            <div class="footer_title pt-3 mb-3">
+              <h3>Support</h3>
+            </div>
+            <div class="footer_links">
+              <ul>
+                <li><a href="javascript:;">Frequently Asked Questions</a></li>
+                <li><a href="javascript:;">Terms & Conditions</a></li>
+                <li><a href="javascript:;">Privacy Policy</a></li>
+                <li><a href="javascript:;">Report a Payment Issue</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border-top">
+        <h6 class="text-center mt-3">Copyright ©2020 All rights reserved</h6>
+      </div>
+    </footer>
+  </section>
+    <!-- ==============footer ends here============== -->
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
+

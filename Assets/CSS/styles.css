@@ -1,0 +1,543 @@
+*{
+    scroll-behavior: smooth;
+   margin:0;
+   padding:0;
+} 
+html,body{
+  height: 100vh;
+  width: 100%;
+  
+}
+.navbar{
+    
+    background-color:black;
+}
+
+.fa-color{
+  color:white;
+}
+/* .navbar-brand{
+  height:200px;
+  width:200px;
+} */
+
+.nav-link{
+  font-size: 14px !important;
+  color: black;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-left: 16px!important;
+  padding-right: 16px!important;
+
+}
+.navbar-toggler{
+  outline:none!important; 
+}
+.search,.cart{
+  padding-left: 16px!important;
+  padding-right: 16px!important;
+  padding-top: 8px!important;
+  padding-bottom: 8px!important;
+
+}
+.line{
+  margin-bottom: 0px;
+  
+}
+/*slider*/
+.carousel-item{
+  height:600px;
+}
+.carousel-caption{
+  font-family: 'Caveat', cursive;
+}
+.carousel-image-2{
+  background-image: url('../images/back3.jpg');
+  background-size: cover;
+} 
+.carousel-image-2 .title-color{
+  color: #f20dd3;
+}
+.carousel-image-2 .carousel-caption{
+  position: absolute;
+  left:80px;
+  top:50px;
+}
+.carousel-image-2 .carousel-caption .btn{
+  position:absolute;
+  left:230px;
+}
+.carousel-image-2 .carousel-caption .btn-color{
+  background-color: black;
+  color: white;
+  font-family: 'Russo One', sans-serif;
+  margin-top: 20px;
+}
+.carousel-image-2 .carousel-caption .display-3{
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: black;
+  
+}
+.carousel-image-3{
+  background-image: url('../images/heelscover.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+} 
+.carousel-image-3 .carousel-caption{
+  position: absolute;
+  top:20px;
+}
+.carousel-image-1{
+  background-image: url('../images/lincover1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+} 
+.carousel-image-1 .carousel-caption{
+  position:absolute;
+  left:190px;
+  top:150px;
+
+}
+
+.carousel-image-1 .carousel-caption .display-3{
+  font-family: 'Great Vibes', cursive;
+}
+.carousel-image-1 .carousel-caption .title-color{
+  font-family: 'Russo One', sans-serif;
+}
+
+.shop_by_category{
+    display:table;
+    height:100vh;
+    width:100%;
+    margin:0px;
+    padding-top:30px;   
+}
+/*
+.shop_by_category .container-fluid .row{
+    padding-left: 50px;
+    padding-right: 50px;
+    width:100%;
+    
+}
+.shop_by_category .container-fluid .row .cat{
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    font-size: large;
+    color:black;
+}*/
+.products
+{
+    display: table;
+    
+    width:100%;
+    text-align: center;
+}
+
+.feature{
+    display:table;
+    height:100vh;
+    width:100%;
+    background-color: #ee5166;
+background-image: linear-gradient(315deg, #ee5166 0%, #f08efc 74%);
+    text-align: center;
+}
+.feature .container{
+    width:90%;   
+}
+.feature .container .section_title{
+    padding-bottom: 20px;
+}
+
+.feature .container .section_title h1{
+    color:white;
+}
+
+.feature .container .row{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.feature .container .row .box,{
+   width:30%;
+   height:400;
+   border-radius: 15px;
+   box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+                15px 15px 15px rgba(0,0,0,0.1),
+                inset -5px -5px 5px rgba(255,255,255,0.2),
+                inset 5px 5px 5px rgba(0,0,0,0.1);
+   
+}
+/*footer part*/
+.footer_section{
+  background-color: black;
+}
+.footer_section .container-fluid .row .footcol{
+    position: relative;
+}
+
+.footer_section .container-fluid .row .footcol .footer_title a img{
+    position:absolute;
+   bottom:120px;
+}
+.footer_section .container-fluid .row .footcol .ex{
+    position: absolute;
+    bottom:23px;
+    height: 75px;
+    color: white;
+}
+.footer_section .container-fluid .row .footcol1 .footer_links ul li{
+    list-style-type:none;
+}
+.footer_section .container-fluid .row .footcol1 .footer_links ul li a{
+    color:rgba(255,255,255,.5);
+    font-weight:400;
+    line-height: 2;
+}
+.products .container{
+    padding-left: 20;
+}
+.products .container .row .desc{
+    max-width: 85%;
+}
+.products .container .row .desc .desc_row{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 30px;
+}
+.products .container .row .desc .desc_row .desc_col{
+    height:350px;
+    margin-right: 15px;
+}
+.prooduct .container .row .col-md-4 .card{
+  background-color:#f6f6f6;
+}
+
+/* gaurav's code */
+.products{
+    overflow:hidden;
+}
+#products-left {
+    display: inline-block;
+    width: 15%;
+    height: 100vh;
+    margin-left: 70px;
+    float:left;
+}
+#products-right {
+    display: inline-block;
+    width: 70%;
+    /* margin: auto; */
+    float: right;
+    margin-right: 35px;
+}
+.desc_col{
+    
+    border-radius:10px;
+    margin:57px;
+
+} 
+
+
+/*product details*/
+.product_detail{
+ 
+}
+.product_detail .container .myrow .mycol .row2{
+  width:80%;
+}
+.product_detail .container .myrow .mycol .row2 .col2{
+  background-color: #f6f5f5;
+  padding: 40px;
+  border-radius: 50px;
+}
+.product_detail .container .myrow .mycol .row2 .col2 .car .carin li{
+  height:64px;
+  width:100px;
+} 
+.related_products .r1 .col1 .mybor{
+background-color:  #f6f5f5;
+border-radius: 50px;
+}
+
+.cat-card{
+	box-shadow: 0 4px 8px 0 rgba(104, 107, 110, 0.2), 0 6px 20px 0 rgba(140, 139, 145, 0.2);
+}
+.cat-card2{
+	box-shadow: 0 4px 8px 0 rgba(12, 91, 180, 0.2), 0 6px 20px 0 rgba(43, 14, 207, 0.2);
+}
+.cat-card3{
+	box-shadow: 0 4px 8px 0 rgba(7, 133, 28, 0.2), 0 6px 20px 0 rgba(6, 122, 25, 0.2);
+}
+.cat-card4{
+	box-shadow: 0 4px 8px 0 rgba(167, 5, 5, 0.2), 0 6px 20px 0 rgba(187, 7, 7, 0.2);
+}
+@media (max-width:320px){
+
+}
+@media (max-width:768px){
+  
+}
+@media (max-width:1024px){
+  
+}
+/*Makeup page*/
+.makeupPage{
+  
+  margin-top: 80px !important;
+}
+
+.makeupPage .card,.products-right .card{
+  border:none;
+  outline:none;
+  background-color: #fff;
+  border-radius:20px;
+  transition: transform .3s;
+}
+.card:hover{
+  transform:translateY(-15px);
+  transition: transform .3s;
+
+}
+.text1{
+  font-size:13px;
+  color: #cbcbcb;
+}
+.info{
+  line-height: 17px;
+}
+.star{
+  color: #fbc02d;
+}
+.cost span{
+  color:#fb3531;
+  font-weight:bold;
+  font-size:20px;
+}
+.makeup{
+  background-color: #dc3545;
+}
+.makeup:hover{
+  opacity:.8;
+}
+.cursor{
+  cursor: pointer;
+  border-bottom-left-radius:20px;
+  border-bottom-right-radius:20px;
+}
+
+/*Lingerie page*/
+.lingeriePage{ 
+  margin-top: 80px !important;
+}
+
+.lingeriePage .card{
+  border:none;
+  outline:none;
+  background-color: #fff;
+  border-radius:20px;
+  transition: transform .3s;
+}
+.card:hover{
+  transform:translateY(-15px);
+  transition: transform .3s;
+
+}
+.text1{
+  font-size:13px;
+  color: #cbcbcb;
+}
+.info{
+  line-height: 17px;
+}
+.star{
+  color: #fbc02d;
+}
+.cost span{
+  color:#fb3531;
+  font-weight:bold;
+  font-size:20px;
+}
+.lingerie{
+  background-color: #dc3545;
+}
+.lingerie:hover{
+  opacity:.8;
+}
+.cursor{
+  cursor: pointer;
+  border-bottom-left-radius:20px;
+  border-bottom-right-radius:20px;
+}
+/*heels page*/
+.heelsPage{ 
+  margin-top: 80px !important;
+}
+
+.heelsPage .card{
+  border:none;
+  outline:none;
+  background-color: #fff;
+  border-radius:20px;
+  transition: transform .3s;
+}
+.card:hover{
+  transform:translateY(-15px);
+  transition: transform .3s;
+
+}
+.text1{
+  font-size:13px;
+  color: #cbcbcb;
+}
+.info{
+  line-height: 17px;
+}
+.star{
+  color: #fbc02d;
+}
+.cost span{
+  color:#fb3531;
+  font-weight:bold;
+  font-size:20px;
+}
+.heels{
+  background-color: #dc3545;
+}
+.heels:hover{
+  opacity:.8;
+}
+.cursor{
+  cursor: pointer;
+  border-bottom-left-radius:20px;
+  border-bottom-right-radius:20px;
+}
+/*perfumes page*/
+.perfumesPage{ 
+  margin-top: 80px !important;
+}
+
+.perfumesPage .card{
+  border:none;
+  outline:none;
+  background-color: #fff;
+  border-radius:20px;
+  transition: transform .3s;
+}
+.card:hover{
+  transform:translateY(-15px);
+  transition: transform .3s;
+
+}
+.text1{
+  font-size:13px;
+  color: #cbcbcb;
+}
+.info{
+  line-height: 17px;
+}
+.star{
+  color: #fbc02d;
+}
+.cost span{
+  color:#fb3531;
+  font-weight:bold;
+  font-size:20px;
+}
+.perfumes{
+  background-color: #dc3545;
+}
+.perfumes:hover{
+  opacity:.8;
+}
+.cursor{
+  cursor: pointer;
+  border-bottom-left-radius:20px;
+  border-bottom-right-radius:20px;
+}
+/*accessories page*/
+.accessoriesPage{ 
+  margin-top: 80px !important;
+}
+
+.accessoriesPage .card{
+  border:none;
+  outline:none;
+  background-color: #fff;
+  border-radius:20px;
+  transition: transform .3s;
+}
+.card:hover{
+  transform:translateY(-15px);
+  transition: transform .3s;
+
+}
+.text1{
+  font-size:13px;
+  color: #cbcbcb;
+}
+.info{
+  line-height: 17px;
+}
+.star{
+  color: #fbc02d;
+}
+.cost span{
+  color:#fb3531;
+  font-weight:bold;
+  font-size:20px;
+}
+.accessories{
+  background-color: #dc3545;
+}
+.accessories:hover{
+  opacity:.8;
+}
+.cursor{
+  cursor: pointer;
+  border-bottom-left-radius:20px;
+  border-bottom-right-radius:20px;
+}
+/*bags page*/
+.bagsPage{ 
+  margin-top: 80px !important;
+}
+
+.bagsPage .card{
+  border:none;
+  outline:none;
+  background-color: #fff;
+  border-radius:20px;
+  transition: transform .3s;
+}
+.card:hover{
+  transform:translateY(-15px);
+  transition: transform .3s;
+
+}
+.text1{
+  font-size:13px;
+  color: #cbcbcb;
+}
+.info{
+  line-height: 17px;
+}
+.star{
+  color: #fbc02d;
+}
+.cost span{
+  color:#fb3531;
+  font-weight:bold;
+  font-size:20px;
+}
+.bags{
+  background-color: #dc3545;
+}
+.bags:hover{
+  opacity:.8;
+}
+.cursor{
+  cursor: pointer;
+  border-bottom-left-radius:20px;
+  border-bottom-right-radius:20px;
+}
